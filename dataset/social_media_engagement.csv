@@ -1,0 +1,13 @@
+post_id,post_type,likes,shares,comments,total_engagement
+1,carousel,120,50,30,200
+2,reels,300,150,80,530
+3,static_image,80,20,10,110
+4,carousel,200,100,50,350
+5,reels,450,200,120,770
+6,static_image,60,10,5,75
+7,carousel,150,80,40,270
+8,reels,400,180,100,680
+9,static_image,90,15,8,113
+10,carousel,180,90,45,315
+11,reels,320,140,90,550
+12,static_image,70,12,6,88

@@ -1,0 +1,11 @@
+streamlit
+pandas
+astrapy
+langchain
+openai
+python-dotenv
+langchain_community
+pandas
+transformers
+torch
+google-generativeai
