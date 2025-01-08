@@ -46,5 +46,51 @@ Build an analytics module to:
    - Describes the Langflow workflow, DataStax Astra DB usage, and GPT integration.
 3. **Public Repository:** All project files are available in this public repository.
 4. **Well-written Description:** This README provides a clear overview of the project.
-
 5. Open Langflow and load the `workflow.json` file to view and execute the workflow.
+
+---
+
+## 🛠 Setup Instructions
+
+### Prerequisites
+- Python 3.8 or later installed
+- Node.js (for Langflow UI)
+- DataStax Astra account (free tier available)
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/ShreyasGandhi0607/social_media_performace_analysis
+cd social-media-performance-analysis
+```
+
+### 2. Set Up DataStax Astra DB
+1. Sign up for a free DataStax Astra account at [Astra DB](https://www.datastax.com/astra).
+2. Create a new database (Keyspace: `social_media_data`).
+3. Download the database secure connect bundle and place it in the project root directory.
+
+### 3. Install Required Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Load Langflow and Import Workflow
+```bash
+pip install langflow
+langflow
+```
+1. Access Langflow at `http://localhost:7860`.
+2. Import `workflow.json` from the project directory.
+3. Configure nodes to connect to your Astra DB by uploading the secure connect bundle.
+
+
+### 5. Run Analysis
+1. Launch Langflow.
+2. Select the imported workflow and click "Run".
+3. Input post types (carousel, reels, etc.) to analyze engagement metrics.
+
+---
+
+## ⚙️ Troubleshooting
+- **Langflow not launching?** Ensure Python and Node.js are properly installed.
+- **Astra DB connection errors?** Double-check the secure connect bundle and re-upload it in Langflow.
+- **Missing dependencies?** Re-run `pip install -r requirements.txt`.
